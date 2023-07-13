@@ -14,9 +14,9 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-dark py-3">
       <div className="container">
-        <Link className="navbar-brand text-light" to="/">
+        <Link className="navbar-brand text-light fs-3" to="/">
           Vikas's Portfolio
         </Link>
         <button

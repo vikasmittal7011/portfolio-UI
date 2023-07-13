@@ -5,7 +5,7 @@ function Links(props) {
   const { children, path, onClick, history } = props;
   const activeClass = history === path && "border-bottom";
   return (
-    <li className="nav-item mx-2" onClick={onClick}>
+    <li className="nav-item mx-2 fs-5" onClick={onClick}>
       <Link
         className={`nav-link text-light ${activeClass}`}
         aria-current="page"
