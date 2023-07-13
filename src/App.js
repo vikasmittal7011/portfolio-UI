@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // import Home from "./components/shared/pages/Home";
 import NavBar from "./components/shared/pages/NavBar";
+import Footer from "./components/shared/pages/Footer";
 const Home = lazy(() => import("./components/shared/pages/Home"));
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
           </Routes>
         </Suspense>
+        <Footer />
       </BrowserRouter>
     </React.Fragment>
   );
