@@ -7,7 +7,7 @@ function Footer() {
     <li className="nav-item mx-2 mb-2 fs-5">
       <a
         href={path}
-        className="link-offset-2 link-underline link-underline-opacity-0"
+        className="link-offset-2 link-underline link-underline-opacity-0 text-light"
       >
         {name}
       </a>
@@ -18,7 +18,7 @@ function Footer() {
     <div className="bg-dark py-3">
       <div className="container">
         <h1 className="text-center">Vikas's Developer Portfolio</h1>
-        <div className="container d-flex justify-content-around my-5">
+        <div className="container d-md-flex justify-content-around my-5 footer">
           <div>
             <img
               className="rounded rounded-circle"

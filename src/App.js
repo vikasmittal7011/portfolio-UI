@@ -2,8 +2,9 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // import Home from "./components/shared/pages/Home";
-import NavBar from "./components/shared/pages/NavBar";
+import "./main.css";
 import Footer from "./components/shared/pages/Footer";
+import NavBar from "./components/shared/pages/NavBar";
 const Home = lazy(() => import("./components/shared/pages/Home"));
 
 function App() {
