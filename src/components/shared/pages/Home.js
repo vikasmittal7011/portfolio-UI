@@ -2,18 +2,13 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
 import image from "../images/bg.png";
-// import resume from "../images/Vikas.pdf";
 import Experience from "../components/pages/Experience";
 
 function Home() {
   const typingString = useRef(null);
-  console.log(process.env.REACT_APP_RESUME);
 
   const downloadFile = () => {
     window.open(process.env.REACT_APP_RESUME);
-    // window.open(
-    //   "https://drive.google.com/file/d/1wcjUnHtQ0CltSEqFfLXe0o7HxlYD3Qc0/view?usp=sharing"
-    // );
   };
 
   useEffect(() => {

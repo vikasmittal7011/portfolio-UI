@@ -45,7 +45,7 @@ function NavBar() {
             <Links path="/project" onClick={handleToggle} history={history}>
               Projects
             </Links>
-            <Links path="/contect" onClick={handleToggle} history={history}>
+            <Links path="/contact" onClick={handleToggle} history={history}>
               Content Me
             </Links>
           </ul>

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./main.css";
 import Footer from "./components/shared/pages/Footer";
 import NavBar from "./components/shared/pages/NavBar";
+import Contact from "./components/shared/pages/Contact";
 const Home = lazy(() => import("./components/shared/pages/Home"));
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Suspense fallback={<h1>Loading...</h1>}>
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </Suspense>
         <Footer />
