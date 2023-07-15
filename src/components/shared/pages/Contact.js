@@ -21,16 +21,13 @@ function Contact() {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(
-        "https://vikas-portfolio.onrender.com/sendMessage",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ name, email, query, phone }),
-        }
-      );
+      const response = await fetch(`${process.env.REACT_APP_EMAIL_URL}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, query, phone }),
+      });
       const data = await response.json();
       const isSuccess = data.success;
       if (isSuccess) {
