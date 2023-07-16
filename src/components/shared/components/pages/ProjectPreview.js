@@ -8,15 +8,15 @@ function ProjectPreview(props) {
       <p>
         <a
           href={src}
-          class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fs-5"
+          className="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fs-5"
         >
-          Light link
+          Visit Me
         </a>
       </p>
       <iframe
         title={title}
         src={src}
-        frameborder="0"
+        frameBorder="0"
         width="100%"
         height="600px"
       ></iframe>

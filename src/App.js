@@ -7,6 +7,7 @@ import Footer from "./components/shared/pages/Footer";
 import NavBar from "./components/shared/pages/NavBar";
 import Contact from "./components/shared/pages/Contact";
 import Projects from "./components/shared/pages/Projects";
+import About from "./components/shared/pages/About";
 const Home = lazy(() => import("./components/shared/pages/Home"));
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/project" element={<Projects />} />
+            <Route exact path="/about" element={<About />} />
           </Routes>
         </Suspense>
         <Footer />
