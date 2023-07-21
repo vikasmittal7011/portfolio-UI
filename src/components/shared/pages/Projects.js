@@ -5,6 +5,18 @@ function Projects() {
   return (
     <div className="container my-5">
       <h1 className="text-center">My Personal Projects</h1>
+      <ProjectPreview
+        title="guessTheFlags"
+        src="https://flag-game.onrender.com/"
+      />
+      <ProjectPreview
+        title="ticTacToe"
+        src="https://tic-tac-toe-1rm1.onrender.com/"
+      />
+      <ProjectPreview
+        title="chattingRoom"
+        src="https://chattingroom.onrender.com/"
+      />
       <ProjectPreview title="ebook" src="https://ebooks-a095.onrender.com/" />
       <ProjectPreview
         title="myMedia"
