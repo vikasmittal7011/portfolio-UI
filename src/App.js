@@ -1,15 +1,14 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-// import Home from "./components/shared/pages/Home";
 import "./main.css";
-import Footer from "./components/shared/pages/Footer";
-import NavBar from "./components/shared/pages/NavBar";
-import Contact from "./components/shared/pages/Contact";
-import Projects from "./components/shared/pages/Projects";
-import About from "./components/shared/pages/About";
-import Services from "./components/shared/pages/Services";
-const Home = lazy(() => import("./components/shared/pages/Home"));
+const Footer = lazy(() => import("./pages/Footer"));
+const NavBar = lazy(() => import("./pages/NavBar"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Projects = lazy(() => import("./pages/Projects"));
+const About = lazy(() => import("./pages/About"));
+const Services = lazy(() => import("./pages/Services"));
+const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
