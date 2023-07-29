@@ -1,5 +1,9 @@
 export const myData = [
   {
+    name: `gpt3`,
+    src: `https://gpt3-7vnb.onrender.com/`,
+  },
+  {
     name: `movix`,
     src: `https://movix-1215.onrender.com/`,
   },
