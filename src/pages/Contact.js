@@ -35,6 +35,15 @@ function Contact() {
           msg: "Your mail was succesfully send!!",
           type: "success",
         });
+        setUser({
+          name: "",
+          email: "",
+          phone: "",
+          query: "",
+        });
+        setTimeout(() => {
+          setMessage("");
+        }, 2000);
       } else {
         setMessage({
           msg: "Something is wrong, try again later!!",

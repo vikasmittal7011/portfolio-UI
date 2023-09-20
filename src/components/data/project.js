@@ -1,5 +1,9 @@
 export const myData = [
   {
+    name: `eCommerce`,
+    src: `https://myshop-fx41.onrender.com/`,
+  },
+  {
     name: `gpt3`,
     src: `https://gpt3-7vnb.onrender.com/`,
   },
@@ -15,10 +19,10 @@ export const myData = [
     name: `ticTacToe`,
     src: `https://tic-tac-toe-1rm1.onrender.com/`,
   },
-  {
-    name: `chattingRoom`,
-    src: `https://chattingroom.onrender.com/`,
-  },
+  // {
+  //   name: `chattingRoom`,
+  //   src: `https://chattingroom.onrender.com/`,
+  // },
   {
     name: `ebook`,
     src: `https://ebooks-a095.onrender.com/`,

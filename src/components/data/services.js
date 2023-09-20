@@ -8,7 +8,7 @@ export const myData = [
       "Implementing state management solutions like Redux or Redux Toolkit.",
       "Creating reusable and modular components to ensure code efficiency.",
       "Collaborating with designers to transform wireframes and mockups into functional UIs.",
-      "Integrating Bootstrap for responsive layouts and pre-built components.",
+      "Integrating Bootstrap || Tailwind for responsive layouts and pre-built components.",
     ],
   },
   {

@@ -1,7 +1,6 @@
 @media screen and (max-width: 770px) {
   .phone-screen {
     width: 100%;
-    margin: 0 30px;
   }
   .phone-screen > div {
     display: inline;
@@ -13,10 +12,7 @@
     margin: 70px 0 !important;
   }
 
-  .footer {
-    margin: 0 70px;
-  }
-  .footer div{
+  .footer div {
     margin: 30px 0;
   }
 }

@@ -31,7 +31,7 @@ function Home() {
     <React.Fragment>
       <div className="container my-3 py-3">
         <div className="d-md-flex my-4 phone-screen">
-          <div className="w-50 d-flex justify-content-center flex-column ps-3 fs-1 my-4 phone-screen-sizing">
+          <div className="w-50 d-flex justify-content-center flex-column fs-1 my-4 phone-screen-sizing">
             <h1>
               Hi, My name is <span style={{ color: "#cd5d5d" }}>Vikas</span>
             </h1>
